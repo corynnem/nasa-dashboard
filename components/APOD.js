@@ -28,7 +28,7 @@ const APOD = (props) => {
         if(isFullScreen) {
             apod.style.height = '80vw'
             apod.style.position = 'absolute';
-            apod.style.top = '50%'
+            apod.style.top = '150%'
             apod.style.left = '50%'
             apod.style.transform = 'translate(-50%, -50%)'
             body.style.backgroundColor = 'rgba(0,0,0,0.7)'

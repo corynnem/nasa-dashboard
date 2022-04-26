@@ -16,5 +16,6 @@ a {
 
 * {
   box-sizing: border-box;
-
+  color: #c3c3e6;
+  font-family: 'Titillium Web', sans-serif;
 }

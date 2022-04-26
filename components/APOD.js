@@ -47,12 +47,12 @@ const APOD = (props) => {
         
     }, [isFullScreen])
 
-    console.log(photo)
+
     return(
         <div style={{textAlign: 'center'}}>
-            <h5>Today's Astronomy Picture Of the Day (APOD)</h5>
+            <h5>Today&lsquo;s Astronomy Picture Of the Day (APOD)</h5>
             <div className="apod">
-            { photo && <img id='today' src={photo.hdurl} style={{height: '30vh'}} onClick={() => setIsFullScreen(!isFullScreen)}/>}
+            { photo && <img id='today' alt='todays astronomy picture of the day' src={photo.hdurl} style={{height: '30vh'}} onClick={() => setIsFullScreen(!isFullScreen)}/>}
             <p style={{padding: '10px', fontSize: '.75em'}}>{photo.explanation}</p>
             </div>
         </div>

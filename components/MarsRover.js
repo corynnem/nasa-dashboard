@@ -52,7 +52,7 @@ const Photo = () => {
     return(
         <div  style={{textAlign: 'center'}}>
             <h5>Curiosity Rover</h5>
-         { photo && <img id="mars-rover" src={photo} style={{height: '30vh'}} onClick={() => setIsFullScreen(!isFullScreen)}/>}
+         { photo && <img id="mars-rover" alt="Todays mars curiosity rovers photo" src={photo} style={{height: '30vh'}} onClick={() => setIsFullScreen(!isFullScreen)}/>}
         </div>
     )
 }

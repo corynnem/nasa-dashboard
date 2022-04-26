@@ -39,10 +39,11 @@ const EPIC = (props) => {
 console.log(photo)
   return (
     <div style={{ textAlign: "center"}}>
-      <h5>Earth's Polychromatic Imaging Camera (EPIC)</h5>
+      <h5>Earth&lsquo;s Polychromatic Imaging Camera (EPIC)</h5>
       {photo && photoDate ? (
         <img
           id="epic"
+          alt="Todays earth polychromatic imaging camera image"
           src={`https://epic.gsfc.nasa.gov/archive/natural/${photoDate && photoDate[0]}/${
             photoDate && photoDate[1]
           }/${photoDate && photoDate[2].split(" ")[0]}/png/${photoDate && photo.image}.png`}

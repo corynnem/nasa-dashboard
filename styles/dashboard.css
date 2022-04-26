@@ -10,8 +10,9 @@
         flex-direction: column;
         justify-content: space-between;
         height: 95vh;
-       
-    }
+        margin-top: 50px;
+
+    }   
 
     #box {
         display: flex;
@@ -23,10 +24,11 @@
     .section {
         margin-top: 50px;
         display: flex;
-        height: 25rem;
+        height: 50rem;
         padding: 10px;
         
     }
+
 
   }
   

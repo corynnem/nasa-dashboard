@@ -1,0 +1,82 @@
+  
+@media (max-width: 700px) {
+    #dashboard {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 95vh;
+       
+    }
+
+    #box {
+        display: flex;
+        width: 60vw;
+        height: 160vh;
+        flex-wrap: wrap;
+    }
+    
+    .section {
+        margin-top: 50px;
+        display: flex;
+        height: 25rem;
+        padding: 10px;
+        
+    }
+
+  }
+  
+  
+
+  
+  @media (min-width: 701px) {
+    #dashboard {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    #left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 80vh;
+        padding: 10px;
+        
+    }
+
+    #right {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80vh;
+        
+    }
+
+
+    .section {
+        display: flex;
+        height: 39vh;
+        width: 55vw;
+        padding: 10px;
+        
+    }
+    #box {
+        display: flex;
+        height: 200vh;
+        
+        flex-wrap: wrap;
+    }
+    .apod {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+  }
